@@ -13,9 +13,16 @@ jobs:
       - uses: enriikke/gatsby-gh-pages-action@v2
         with:
           access-token: ${{ secrets.DEPLOY_GATSBY }}
-      - name: send custom message with args
+      - name: Sending telegram notification 
         uses: appleboy/telegram-action@master
         with:
           to: ${{ secrets.TELEGRAM_TO }}
           token: ${{ secrets.TELEGRAM_TOKEN }}
-          args: The ${{ github.event_name }} event triggered first step.
+          args: |
+            📢 !!
+            Evento    : ${{ github.event_name }}
+            Agente    : ${{ github.actor }}
+            workflow  : ${{ github.workflow }}
+            workspace : ${{ github.workspace }}
+            Ha finalizado el proceso de manera satisfactoria! ✔✔
+          
