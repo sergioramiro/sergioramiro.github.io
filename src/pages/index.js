@@ -60,7 +60,7 @@ const IndexPage = () => (
                 new normal that has evolved from generation X is on the runway
                 heading towards a streamlined cloud solution. User generated
                 content in real-time will have multiple touchpoints for
-                offshoring.
+                offshoring.👌
               </p>
             </div>
             <div className="resume-date text-md-right">
