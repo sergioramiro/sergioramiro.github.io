@@ -51,8 +51,8 @@ const IndexPage = () => (
           <h2 className="mb-5">Experience</h2>
 
           <ResumeItem
-            position="Senior Web Developer"
-            company="Intelitec Solutions"
+            position="Java Backend Developer"
+            company="Leadtech"
             text="Bring to the table win-win survival strategies to ensure
             proactive domination. At the end of the day, going forward, a
             new normal that has evolved from generation X is on the runway
