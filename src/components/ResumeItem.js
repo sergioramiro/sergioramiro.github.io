@@ -6,7 +6,7 @@ export class ResumeItem extends Component {
             <div className="resume-content">
                 <h3 className="mb-0">{this.props.position}</h3>
                 <div className="subheading mb-3">{this.props.company}</div>
-                <p>{this.props.text}</p>
+                {this.props.text.split('\n').map(str => <p>{str}</p>)}
             </div>
             <div className="resume-date text-md-right">
                 <span className="text-primary">{this.props.data}</span>
