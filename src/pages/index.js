@@ -52,13 +52,13 @@ const IndexPage = () => (
           <ResumeItem
             position="Java Software Engineer"
             company="Leadtech Group"
-            text="- Agile work environment
-                  - Saas with high user traffic
-                  - Project in a distributed system
-                  - Development of serverless microservices at AWS
-                  - Relational and non-relational databases (postgress, dynamoDB)
-                  - DDD as a software development approach
-                  - Programming based on unit tests and integration tests (JUnit, Gherkin)
+            text="- Agile work environment<br>
+                  - Saas with high user traffic<br>
+                  - Project in a distributed system<br>
+                  - Development of serverless microservices at AWS<br>
+                  - Relational and non-relational databases (postgress, dynamoDB)<br>
+                  - DDD as a software development approach<br>
+                  - Programming based on unit tests and integration tests (JUnit, Gherkin)<br>
                   - Use of best practices such as pair programming, code review, clean code, CI/CD..."
             data="February 2019 - Present"
           ></ResumeItem>
@@ -66,8 +66,8 @@ const IndexPage = () => (
           <ResumeItem
             position="Java Software Engineer"
             company="Merkle Company"
-            text="Position in the Sky project in the Sales department performing analysis, development and support of microservices for the sales process.\n
-                  Use of methodologies such as Agile, Scrum, Test Driven Development (TDD), Behavior Driven Development (BDD).\n
+            text="Position in the Sky project in the Sales department performing analysis, development and support of microservices for the sales process.<br>
+                  Use of methodologies such as Agile, Scrum, Test Driven Development (TDD), Behavior Driven Development (BDD).<br>
                   The most used technologies were Java, Spring, Hibernate / JPA, REST, MQ, Maven, Oracle, Cucumber, Git, Jenkins."
             data="October 2017 - February 2019"
           ></ResumeItem>
@@ -75,8 +75,8 @@ const IndexPage = () => (
           <ResumeItem
             position="Java Software Engineer"
             company="Indra"
-            text="Position in the ZEUS project in the Billing department of Gas Natural Fenosa developing new functionalities for the client.\n
-                  The main application was a Web Services Software based on Java and the technologies used were for example Oracle, Maven, Spring, Hibernate or Flex.\n
+            text="Position in the ZEUS project in the Billing department of Gas Natural Fenosa developing new functionalities for the client.<br>
+                  The main application was a Web Services Software based on Java and the technologies used were for example Oracle, Maven, Spring, Hibernate or Flex.<br>
                   For the coordination of the team Jira and Redmine."
             data="September 2014 - October 2017"
           ></ResumeItem>
@@ -84,7 +84,7 @@ const IndexPage = () => (
           <ResumeItem
             position="Php Software Engineer Junior"
             company="Clickart"
-            text="Position in the Clickedu project, an educational CRM, in the incidents and new features department. \n
+            text="Position in the Clickedu project, an educational CRM, in the incidents and new features department.<br>
                   The main application was a PHP based Saas using mySQL databases."
             data="September 2013 - September 2014"
           ></ResumeItem>
