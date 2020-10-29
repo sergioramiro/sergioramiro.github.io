@@ -66,8 +66,8 @@ const IndexPage = () => (
           <ResumeItem
             position="Java Software Engineer"
             company="Merkle Company"
-            text="Position in the Sky project in the Sales department performing analysis, development and support of microservices for the sales process.
-                  Use of methodologies such as Agile, Scrum, Test Driven Development (TDD), Behavior Driven Development (BDD).
+            text="Position in the Sky project in the Sales department performing analysis, development and support of microservices for the sales process.\n
+                  Use of methodologies such as Agile, Scrum, Test Driven Development (TDD), Behavior Driven Development (BDD).\n
                   The most used technologies were Java, Spring, Hibernate / JPA, REST, MQ, Maven, Oracle, Cucumber, Git, Jenkins."
             data="October 2017 - February 2019"
           ></ResumeItem>
@@ -75,8 +75,8 @@ const IndexPage = () => (
           <ResumeItem
             position="Java Software Engineer"
             company="Indra"
-            text="Position in the ZEUS project in the Billing department of Gas Natural Fenosa developing new functionalities for the client.
-                  The main application was a Web Services Software based on Java and the technologies used were for example Oracle, Maven, Spring, Hibernate or Flex.
+            text="Position in the ZEUS project in the Billing department of Gas Natural Fenosa developing new functionalities for the client.\n
+                  The main application was a Web Services Software based on Java and the technologies used were for example Oracle, Maven, Spring, Hibernate or Flex.\n
                   For the coordination of the team Jira and Redmine."
             data="September 2014 - October 2017"
           ></ResumeItem>
@@ -84,7 +84,7 @@ const IndexPage = () => (
           <ResumeItem
             position="Php Software Engineer Junior"
             company="Clickart"
-            text="Position in the Clickedu project, an educational CRM, in the incidents and new features department. 
+            text="Position in the Clickedu project, an educational CRM, in the incidents and new features department. \n
                   The main application was a PHP based Saas using mySQL databases."
             data="September 2013 - September 2014"
           ></ResumeItem>
